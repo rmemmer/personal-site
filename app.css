@@ -4,7 +4,27 @@ body {
 
 
 /* Navbar */
+.navbar-brand {
+    font-size: 0.7em;
+    font-weight: 800;
+    letter-spacing: 0.2rem;
+    border-right: solid 1px rgba(161, 161, 161, 0.298);
+    padding: 15px 16px 15px 0px;
+}
 
-.name {
-    font-size: 2rem;
+#navbar .navbar {
+    padding: 0;
+    background-color: #fff;
+}
+
+#navbar .nav-link {
+    font-size: 0.7em;
+    font-weight: 400;
+    letter-spacing: 0.2rem;
+    border-left: solid 1px rgba(161, 161, 161, 0.298);
+    padding: 0px 21px 0px 21px;
+}
+
+#navbar #first-li {
+    border-left: none;
 }
