@@ -1,7 +1,14 @@
 body {
     font-family: Raleway, Helvetica, sans-serif;
+    background-color: #f4f4f4;
+    margin:auto;
 }
 
+header {
+    line-height: 50px;
+    padding: 5% 7% 5%;
+    text-align: center;
+}
 
 /* Navbar */
 .navbar-brand {
@@ -17,7 +24,7 @@ body {
     background-color: #fff;
 }
 
-#navbar .nav-link {
+.nav-link {
     font-size: 0.7em;
     font-weight: 400;
     letter-spacing: 0.2rem;
@@ -28,3 +35,62 @@ body {
 #navbar #first-li {
     border-left: none;
 }
+
+@media (max-width: 992px) {
+    #offcanvasNavbarLabel {
+        border: none;
+        font-size: 1.2em;
+        font-weight: 800;
+        letter-spacing: 0.2rem;
+    }
+
+    .navbar-brand {
+        border: none;
+        font-size: 0.7em;
+    }
+
+    .nav-link {
+        border-bottom: solid 1px rgba(161, 161, 161, 0.298);
+        border-left: none;
+        font-weight: 800;
+        font-size: 0.9em;
+        padding: 21px 0px 21px 0px;
+    }
+}
+
+/* Main Container */
+
+#container-main {
+    padding: 94px 0 0 0;
+    display: block;
+}
+
+
+/* Sidebar */
+
+#sidebar {
+    display: block;
+}
+
+#headshot {
+    border-radius:90%;
+    width: 50%;
+    height: auto;
+    display: block;
+    margin-bottom: 3%;
+}
+
+.headline {
+    font-size: 1.75em;
+    font-weight: 800;
+    letter-spacing: 0.2rem;
+}
+
+
+/* Main */
+
+#main {
+    background-color: #fff;
+    height:10000px;
+}
+
