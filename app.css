@@ -2,12 +2,19 @@ body {
     font-family: Raleway, Helvetica, sans-serif;
     background-color: #f4f4f4;
     margin:auto;
+    text-align: center;
 }
 
 header {
-    line-height: 50px;
     padding: 5% 7% 5%;
-    text-align: center;
+    text-align: left;
+    border-bottom: 1px solid hsla(0,0%,63%,.3);
+}
+
+header p {
+    font-size: 0.7em;
+    letter-spacing: 0.25em;
+    line-height: 25px;
 }
 
 /* Navbar */
@@ -16,7 +23,7 @@ header {
     font-weight: 800;
     letter-spacing: 0.2rem;
     border-right: solid 1px rgba(161, 161, 161, 0.298);
-    padding: 15px 16px 15px 0px;
+    padding: 19.5px 16px 19.5px 12px;
 }
 
 #navbar .navbar {
@@ -34,6 +41,12 @@ header {
 
 #navbar #first-li {
     border-left: none;
+}
+
+#navbar ul li {
+    line-height: 1;
+    margin-left: 0.3em;
+    padding-left: 0.3em;
 }
 
 @media (max-width: 992px) {
@@ -77,13 +90,7 @@ header {
     width: 50%;
     height: auto;
     display: block;
-    margin-bottom: 3%;
-}
-
-.headline {
-    font-size: 1.75em;
-    font-weight: 800;
-    letter-spacing: 0.2rem;
+    margin-bottom: 1em;
 }
 
 
@@ -92,5 +99,12 @@ header {
 #main {
     background-color: #fff;
     height:10000px;
+    border: 1px solid hsla(0,0%,63%,.3);
 }
 
+.headline {
+    font-size: 1.5em;
+    font-weight: 800;
+    letter-spacing: 0.2rem;
+    text-align: left;
+}
