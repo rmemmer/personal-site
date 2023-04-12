@@ -17,6 +17,14 @@ header p {
     line-height: 25px;
 }
 
+p a {
+    font-size: 0.7em;
+    letter-spacing: 0.25em;
+    line-height: 25px;
+    color:#000;
+    text-align: left;
+}
+
 /* Navbar */
 .navbar-brand {
     font-size: 0.7em;
@@ -31,12 +39,12 @@ header p {
     background-color: #fff;
 }
 
-.nav-link {
+.navbar-expand-lg .navbar-nav .nav-link {
     font-size: 0.7em;
     font-weight: 400;
     letter-spacing: 0.2rem;
     border-left: solid 1px rgba(161, 161, 161, 0.298);
-    padding: 0px 21px 0px 21px;
+    padding: 0px 1.3em 0px 1.3em;
 }
 
 #navbar #first-li {
@@ -45,8 +53,7 @@ header p {
 
 #navbar ul li {
     line-height: 1;
-    margin-left: 0.3em;
-    padding-left: 0.3em;
+
 }
 
 @media (max-width: 992px) {
@@ -62,7 +69,7 @@ header p {
         font-size: 0.7em;
     }
 
-    .nav-link {
+    .navbar-expand-lg .navbar-nav .nav-link {
         border-bottom: solid 1px rgba(161, 161, 161, 0.298);
         border-left: none;
         font-weight: 800;
@@ -74,8 +81,11 @@ header p {
 /* Main Container */
 
 #container-main {
-    padding: 94px 0 0 0;
     display: block;
+    margin: 56px auto;
+    padding: 4.5em;
+    max-width: 100%;
+    width:100em;
 }
 
 
