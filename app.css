@@ -2,12 +2,11 @@ body {
     font-family: Raleway, Helvetica, sans-serif;
     background-color: #f4f4f4;
     margin:auto;
-    text-align: center;
+    text-align:left;
 }
 
 header {
     padding: 5% 7% 5%;
-    text-align: left;
     border-bottom: 1px solid hsla(0,0%,63%,.3);
 }
 
@@ -15,14 +14,21 @@ header p {
     font-size: 0.7em;
     letter-spacing: 0.25em;
     line-height: 25px;
+    padding-top: 1%;
 }
 
 p a {
-    font-size: 0.7em;
+    font-size: 1em;
     letter-spacing: 0.25em;
     line-height: 25px;
-    color:#000;
-    text-align: left;
+    color:rgb(189, 179, 179);
+}
+
+h2 {
+    font-size: 1em;
+    font-weight: 800;
+    letter-spacing: 0.2rem;
+    padding: 3rem 0 1.25rem 0
 }
 
 /* Navbar */
@@ -92,7 +98,7 @@ p a {
 /* Sidebar */
 
 #sidebar {
-    display: block;
+    display: inline;
 }
 
 #headshot {
@@ -103,6 +109,16 @@ p a {
     margin-bottom: 1em;
 }
 
+.sidebar-section {
+    border-bottom: 1px solid hsla(0,0%,63%,.3);
+    padding-bottom:1rem;
+}
+
+.sidebar-mid {
+    border-bottom: 1px solid hsla(0,0%,63%,.3);
+    padding-bottom:1rem;
+}
+
 
 /* Main */
 
@@ -110,11 +126,11 @@ p a {
     background-color: #fff;
     height:10000px;
     border: 1px solid hsla(0,0%,63%,.3);
+    display: block;
 }
 
 .headline {
     font-size: 1.5em;
     font-weight: 800;
     letter-spacing: 0.2rem;
-    text-align: left;
 }
