@@ -18,7 +18,7 @@ header p {
 }
 
 p a {
-    font-size: 1em;
+    font-size: 0.9em;
     letter-spacing: 0.25em;
     line-height: 25px;
     color:rgb(189, 179, 179);
@@ -124,7 +124,7 @@ h2 {
 
 #main {
     background-color: #fff;
-    height:10000px;
+    height:1000px;
     border: 1px solid hsla(0,0%,63%,.3);
     display: block;
 }
