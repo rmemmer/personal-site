@@ -103,7 +103,7 @@ h2 {
 
 #headshot {
     border-radius:90%;
-    width: 155px;
+    width: 175px;
     height: auto;
     display: inline;
     margin-bottom: 1em;
@@ -111,15 +111,11 @@ h2 {
 
 .sidebar-section {
     border-bottom: 1px solid hsla(0,0%,63%,.3);
-    padding-bottom:1rem;
+    padding-bottom:2rem;
 }
 
-.sidebar-mid {
-    border-bottom: 1px solid hsla(0,0%,63%,.3);
-    padding-bottom:1rem;
-}
 
-@media (max-width: 1200px) {
+@media (max-width: 1199px) {
     #sidebar {
         text-align: center;
         margin-top: 50px;
@@ -133,6 +129,18 @@ h2 {
         margin: 56px 0 0 0;
         padding: 4.5em 0 0 0;
     }
+}
+
+.fa-brands {
+    padding:1rem 2%;
+    text-align: center;
+}
+
+.copyright {
+    font-size: 0.9em;
+    letter-spacing: 0.25em;
+    line-height: 25px;
+    color:rgb(189, 179, 179);
 }
 
 
