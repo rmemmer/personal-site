@@ -103,9 +103,9 @@ h2 {
 
 #headshot {
     border-radius:90%;
-    width: 50%;
+    width: 155px;
     height: auto;
-    display: block;
+    display: inline;
     margin-bottom: 1em;
 }
 
@@ -119,6 +119,22 @@ h2 {
     padding-bottom:1rem;
 }
 
+@media (max-width: 1200px) {
+    #sidebar {
+        text-align: center;
+        margin-top: 50px;
+    }
+
+    #main {
+        text-align: center;
+    }
+
+    #container-main {
+        margin: 56px 0 0 0;
+        padding: 4.5em 0 0 0;
+    }
+}
+
 
 /* Main */
 
@@ -130,7 +146,7 @@ h2 {
 }
 
 .headline {
-    font-size: 1.5em;
+    font-size: 1.4em;
     font-weight: 800;
     letter-spacing: 0.2rem;
 }
