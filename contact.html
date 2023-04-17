@@ -4,9 +4,114 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Robert Memmer</title>
+    <link rel="icon" href="images/Headshot - Professional.png" type="image/x-icon">
+
+    <!--jQuery CDN-->
+    <script src="https://code.jquery.com/jquery-3.6.4.js" integrity="sha256-a9jBBRygX1Bh5lt8GZjXDzyOB+bWve9EiO7tROUtj/E=" crossorigin="anonymous"></script>
+
+    <!--Bootstrap CSS CDN-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp" crossorigin="anonymous">
+
+    <!--CSS Link-->
+    <link rel="stylesheet" href="app.css">
+
+    <!--Import Raleway fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;800;900&family=Source+Sans+Pro:wght@400;700&display=swap" rel="stylesheet">
+
+    <!-- Add icon library -->
+    <script src="https://kit.fontawesome.com/e2d923ea00.js" crossorigin="anonymous"></script>
+
 </head>
 <body>
     
+    <!--Navbar-->
+
+    <section id="navbar">
+        <nav class="navbar navbar-expand-lg bg-body-white fixed-top">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="index.html">ROBERT MEMMER</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+                <div class="offcanvas-header">
+                  <h5 id="offcanvasNavbarLabel" class="m-auto">NAVIGATE</h5>
+                  <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                </div>
+                <div class="offcanvas-body">
+                  <ul class="navbar-nav flex-grow-1 pe-3">
+                    <li>
+                        <a id="first-li" class="nav-link active" aria-current="page" href="about.html">ABOUT</a>
+                    </li>
+                    <li>
+                        <a class="nav-link active" aria-current="page" href="resume.html">RESUME</a>
+                    </li>
+                    <li>
+                        <a class="nav-link active" aria-current="page" href="projects.html">PROJECTS</a>
+                    </li>
+                    <li>
+                        <a class="nav-link active" aria-current="page" href="stats.html">STATS</a>
+                    </li>
+                    <li>
+                        <a class="nav-link active" aria-current="page" href="contact.html">CONTACT</a>
+                    </li>
+                </ul>
+
+            </div>
+        </div>
+    </nav>
+    </section>
+
+
+<div id="container-main" class="container-lg">
+    <div class="row">
+
+        <div class="col-xl-3 col-12 order-last order-xl-1">
+            <!--Sidebar-->
+            <section id="sidebar">
+                <div class="sidebar-section">
+                    <img id="headshot" src="images/Headshot - Professional.png" alt="Headshot of Robert Memmer">
+                    <h1 class="headline">ROBERT MEMMER</h1>
+                    <p><a href="mailto:rmemmer3@gmail.com">RMEMMER3@GMAIL.COM</a></p>
+                </div>
+                <div class="sidebar-section">
+                    <h2>ABOUT</h2>
+                    <p>Hi I'm Robert</p>
+                    <button href="resume.html" class="btn-primary btn-lg">Learn More</button>
+                </div>
+                <div class="sidebar-section">
+                    <a href="https://www.linkedin.com/in/robertmemmer/">
+                        <i class="fa-brands fa-linkedin"></i>
+                    </a>
+                    <a href="https://github.com/rmemmer">
+                        <i class="fa-brands fa-github"></i>
+                    </a>
+                    <p class="copyright">© Robert Memmer <a href="/">rmemmer.com</a>.</p>
+                </div>
+            </section>
+        </div>
+
+
+        <div class="col-xl-9 col-12 order-first order-xl-2">
+            <!--Main-->
+            <section id="main">
+                <header>
+                    <h1 class="headline">ABOUT THIS SITE</h1>
+                    <p>A BEAUTIFUL, RESPONSIVE, STATICALLY GENERATED, BOOSTRAP APPLICATION WRITTEN WITH MODERN JAVASCRIPT.</p>
+                </header>
+            </section>
+        </div>
+    </div>
+</div>
+
+    <!--Link javscript to HTML-->
+    <script src="index.js"></script>
+
+    <!--Bootstrap Javascript CDN-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.bundle.min.js" integrity="sha384-qKXV1j0HvMUeCBQ+QVp7JcfGl760yU08IQ+GpUo5hlbpg51QRiuqHAJz8+BrxE/N" crossorigin="anonymous"></script>
+
 </body>
 </html>

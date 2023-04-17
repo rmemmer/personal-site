@@ -10,6 +10,10 @@ header {
     border-bottom: 1px solid hsla(0,0%,63%,.3);
 }
 
+a {
+    text-decoration: none;
+}
+
 header p {
     font-size: 0.7em;
     letter-spacing: 0.25em;
@@ -132,15 +136,23 @@ h2 {
 }
 
 .fa-brands {
-    padding:1rem 2%;
+    padding:2rem 1%;
     text-align: center;
+    color: rgb(170,170,170);
+    text-decoration: none;
+    font-size: 1.5rem;
 }
+
 
 .copyright {
     font-size: 0.9em;
     letter-spacing: 0.25em;
     line-height: 25px;
     color:rgb(189, 179, 179);
+}
+
+.sidebar-bottom {
+    border: none;
 }
 
 
