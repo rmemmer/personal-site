@@ -10,6 +10,11 @@ header {
     border-bottom: 1px solid hsla(0,0%,63%,.3);
 }
 
+p {
+    font-family: "Source Sans Pro", Raleway, Helvetica, sans-serif;
+    font-weight: 400;
+}
+
 a {
     text-decoration: none;
 }
@@ -113,6 +118,7 @@ h2 {
     margin-bottom: 1em;
 }
 
+
 .sidebar-section {
     border-bottom: 1px solid hsla(0,0%,63%,.3);
     padding-bottom:2rem;
@@ -169,4 +175,8 @@ h2 {
     font-size: 1.4em;
     font-weight: 800;
     letter-spacing: 0.2rem;
+}
+
+.main {
+    margin-left: 48px;
 }
