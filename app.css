@@ -188,3 +188,11 @@ h2 {
 .content {
     margin-top: 5%;
 }
+
+/* Resume Content */
+
+.resume-nav {
+    font-weight: 700;
+    margin: 2rem 0.5rem 0.5rem 0;
+    color: black;
+}
