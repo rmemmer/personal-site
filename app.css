@@ -6,7 +6,6 @@ body {
 }
 
 header {
-    padding: 5% 7% 5%;
     border-bottom: 1px solid hsla(0,0%,63%,.3);
 }
 
@@ -169,6 +168,11 @@ h2 {
     height:1000px;
     border: 1px solid hsla(0,0%,63%,.3);
     display: block;
+    padding: 5%;
+}
+
+#main div a {
+    letter-spacing: 0;
 }
 
 .headline {
@@ -179,4 +183,8 @@ h2 {
 
 .main {
     margin-left: 48px;
+}
+
+.content {
+    margin-top: 5%;
 }
